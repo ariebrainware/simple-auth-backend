@@ -1,0 +1,38 @@
+{
+  "name": "simple-auth-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv-extended": "^2.3.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0"
+  },
+  "description": "Simple authentication feature using node.js",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ariebrainware/simple-auth-backend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Arie Brainware <publicu001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariebrainware/simple-auth-backend/issues"
+  },
+  "homepage": "https://github.com/ariebrainware/simple-auth-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
