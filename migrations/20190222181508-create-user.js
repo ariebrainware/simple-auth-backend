@@ -22,6 +22,10 @@ module.exports = {
         isEmail: true,
         type: Sequelize.STRING,
       },
+      online: {
+        defaultValue: false,
+        type: Sequelize.BOOLEAN,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
