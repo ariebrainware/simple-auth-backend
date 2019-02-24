@@ -20,7 +20,7 @@ This repo shows simple authentication using node.js, ORM (MySQL), and RESTful AP
 | URL             | METHOD | Description                                      |
 | --------------- | ------ | ------------------------------------------------ |
 | /register       | POST   | Register an user                                 |
-| /login          | PUT    | Login using registered `username` and `password` |
+| /login          | POST   | Login using registered `username` and `password` |
 | /logout/_token_ | POST   | Logout using token as parameter                  |
 
 # Reference
